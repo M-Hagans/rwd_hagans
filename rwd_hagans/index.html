@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <!-- 
+    //WHAT IT IS: A viewport meta tag.
+    //WHAT IT DOES: Ensures proper scaling on mobile screens.
+    //WHAT IT MEANS: Phones display the layout at the correct size.
+  -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>DJ BREAKFAST | My Journey as a DJ</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- 
+    //WHAT IT IS: A centered layout container.
+    //WHAT IT DOES: Limits width and keeps content readable on large screens.
+    //WHAT IT MEANS: The page stays clean and balanced on all devices.
+  -->
+  <div class="container">
+
+    <header>
+      <h1>DJ BREAKFAST</h1>
+      <p>Discover the art of the blend.</p>
+
+      <!-- 
+        //WHAT IT IS: An AI disclosure block.
+        //WHAT IT DOES: Lists the AI tools used and explains the assignment rule.
+        //WHAT IT MEANS: Shows transparency and meets class requirements.
+      -->
+      <div class="ai-disclosure">
+        <p>
+          AI Disclosure: The images on this page were created using ChatGPT, Adobe Firefly, and DALL-E. I checked all the media queries and confirmed that they work correctly to the best of my abilities.
+        </p>
+
+        <!-- 
+          //WHAT IT IS: A simple breakdown of my code.
+          //WHAT IT DOES: Explains each major part in plain English.
+          //WHAT IT MEANS: Shows I understand how my page works.
+        -->
+
+        <!--
+          1. The code sets up the page so the browser knows how to display it.<br>
+          2. It loads my CSS file, which controls colors, layout, and responsiveness.<br>
+          3. It creates a centered container so the content doesn’t stretch too wide.<br>
+          4. It shows my header, tagline, and AI disclosure at the top of the page.<br>
+          5. It uses Flexbox to stack sections on mobile and line them up on bigger screens.<br>
+          6. It displays four sections with images and text about my DJ setup and style.<br>
+          7. It becomes responsive using media queries so the layout changes at different screen sizes.
+        -->
+          
+      </div>
+    </header>
+
+    <!-- 
+      //WHAT IT IS: A Flexbox wrapper.
+      //WHAT IT DOES: Stacks sections vertically on mobile and shifts to columns on larger screens.
+      //WHAT IT MEANS: The layout resizes smoother as the screen gets wider.
+    -->
+    <div class="wrapper">
+
+      <!-- 
+        //WHAT IT IS: A content section.
+        //WHAT IT DOES: Displays DJ equipment with an image and description.
+        //WHAT IT MEANS: Shows the tools behind your sound.
+      -->
+      <div class="section">
+        <img src="images/gear.jpg" alt="Professional DJ Gear" style="width: 100%; border-radius: 10px; margin-bottom: 15px;">
+        <h2>The Gear</h2>
+        <p>I use an RP8000 turntables and a Numark scratch mixer to keep my mixes sounding sharp and professional.</p>
+      </div>
+
+      <!-- 
+        //WHAT IT IS: A content section.
+        //WHAT IT DOES: Highlights your musical style with an image and text.
+        //WHAT IT MEANS: Gives visitors a quick sense of your genre and vibe.
+      -->
+      <div class="section">
+        <img src="images/style.jpg" alt="Music Style Visualization" style="width: 100%; border-radius: 10px; margin-bottom: 15px;">
+        <h2>Musical Styles</h2>
+        <p>I spin Top 40's, Hip Hop, Afrobeats and Reggaeton which flows smoothly and keeps the energy high.</p>
+      </div>
+
+      <!-- 
+        //WHAT IT IS: A content section.
+        //WHAT IT DOES: Shows a live performance image and explains your crowd-reading approach.
+        //WHAT IT MEANS: Demonstrates how you keep the energy alive during sets.
+      -->
+      <div class="section">
+        <img src="images/performance.jpg" alt="Live DJ Performance" style="width: 100%; border-radius: 10px; margin-bottom: 15px;">
+        <h2>The Performance</h2>
+        <p>I watch the crowd to see what they like, then change the music to keep everyone dancing.</p>
+      </div>
+
+      <!-- 
+        //WHAT IT IS: A content section.
+        //WHAT IT DOES: Shows the software tools you use for mixing and track prep.
+        //WHAT IT MEANS: Explains how you stay organized and creative during sets.
+      -->
+      <div class="section">
+        <img src="images/tools.jpg" alt="Digital Production Tools" style="width: 100%; border-radius: 10px; margin-bottom: 15px;">
+        <h2>Digital Tools</h2>
+        <p>I use Algoriddim to organize my tracks and create loops when I play.</p>
+      </div>
+
+    </div><!-- /.wrapper -->
+  </div><!-- /.container -->
+
+</body>
+</html>
